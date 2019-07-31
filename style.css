@@ -1,0 +1,317 @@
+.container {
+    margin: 0 auto;
+    line-height: 1;
+    text-align: justify;
+    font-family: "Times New Roman";
+    box-sizing: border-box;
+}
+
+p, dd {
+    text-indent: 20px;
+    margin: 0;
+}
+
+.header {
+    border-radius: 10px;
+    background-color: #B0C4DE;
+    padding: 10px;
+    position: relative;
+}
+
+#top {
+    text-align: center;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #B0C4DE;
+    padding: 10px;
+}
+
+.navigation {
+    margin: 0;
+}
+
+.topmenu > li {
+    float: left;
+    padding: 5px;
+}
+
+.topmenu {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul a {
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+}
+
+.submenu-link {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 70px;
+    top: 20px;
+    border: 1px solid black;
+    background-color: #6495ED;
+    border-radius: 15%;
+    padding: 5px;
+}
+
+.submenu-link:hover .submenu {
+    display: block;
+}
+
+.main {
+    box-sizing: border-box;
+    background-color: #B0C4DE;
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.content-wrapper {
+    padding-top: 10px;
+}
+
+.test > div {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 3%;
+    margin: 3px;
+    padding: 3px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.aside {
+    width: 30%;
+    float: right;
+    background-color: gray;
+    border-radius: 2%;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h1, h3, h2 {
+    margin-bottom: 0;
+}
+
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+#img {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    height: 30px;
+
+}
+
+.test {
+    width: 80%;
+    float: right;
+}
+
+.term, .term1 {
+    margin: 0;
+}
+
+body {
+    background: url(./background.jpg);
+}
+
+button {
+    background: linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4)
+}
+
+.cals {
+    max-width: 200px;
+    padding: 3px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.input-cell {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.clearfix2::before, .clearfix2:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.button-cell {
+    flex: 0 0 36px;
+    height: 30px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.buttons-holder {
+    flex: 1 1 0%;
+}
+
+.equally {
+    flex: 0 0 36px;
+    height: auto;
+}
+
+.null {
+    box-sizing: border-box;
+    padding: 1px;
+    flex: 0 0 72px;
+}
+
+.cals-button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 3px;
+}
+
+button:hover, button:focus {
+    background: linear-gradient(#adc0c5, #5BC9E1, #adc0c5)
+}
+
+button:active {
+    background: linear-gradient(#98bcc5, #f1f5f6, #98bcc5)
+}
+
+.cals-input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+@media (max-width: 640px) {
+    .container {
+        margin: 0 auto;
+        line-height: 1;
+        text-align: justify;
+        font-family: "Times New Roman";
+        box-sizing: border-box;
+    }
+
+    .aside {
+        background-color: gray;
+        border-radius: 2%;
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .back-to-top {
+        position: fixed;
+        left: 25px;
+        bottom: 20px;
+        width: 80px;
+        height: 40px;
+        border: 2px solid gray;
+        border-radius: 15%;
+        padding-left: 5px;
+        background-color: white;
+    }
+
+    .test > div {
+        width: 100%;
+        border: 2px solid black;
+        border-radius: 3%;
+        margin: 0;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+    .test {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #top {
+        font-size: 100%;
+    }
+
+    .topmenu {
+        margin-left: 22%;
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 781px) {
+    .test > div {
+        width: 20%;
+        box-sizing: border-box;
+        margin: 0;
+        float: left;
+    }
+
+    .test {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+}
+
+.container {
+    max-width: 1000px;
+}
